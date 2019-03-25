@@ -81,14 +81,14 @@
  
  <distributionManagement>
      <repository>
-       <id>jfrog</id>
+       <id>nexus</id>
        <name>DESKTOP-LBTFORN-releases</name>
-       <url>http://localhost:8089/artifactory/mven</url>
+       <url>http://localhost:8081/repository/cloud/</url>
      </repository>
      <snapshotRepository>
        <id>nexus</id>
        <name>DESKTOP-LBTFORN-snapshots </name>
-       <url>http://localhost:8089/artifactory/mven</url>
+       <url>http://localhost:8081/repository/cloud2/</url>
      </snapshotRepository>
    </distributionManagement>
 
